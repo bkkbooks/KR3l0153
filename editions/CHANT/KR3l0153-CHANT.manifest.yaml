@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3l0153/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3l0153/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 郭季產集異記
+  identifiers:
+    krp: KR3l0153
+  tags:
+    kr-categories: KR3l
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0153.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0153_001-CHANT.yaml, hash: 'sha256:067aa62512cca917f1b1300ef3ce8cbe706d2838c10757dc92da24c893ff77c9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0153_001-CHANT.markers.yaml, hash: 'sha256:fd7ccbff5fc97c49a43b8e4b247ecd1cde3cbeef4a1f1516f60b436907529a75'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0153_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 698
+  label: 郭季產集異記
+  type: section
+  level: 1
+hash: sha256:8e640f798acb2180ce9dd60b0d686fe5e3084c06a4c211565d1a7a2b0e1f057b

@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3l0153/v1
+canonical_location: https://kanripo.org/bkk/KR3l0153/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 郭季產集異記
+  identifiers:
+    krp: KR3l0153
+  tags:
+    kr-categories: KR3l
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0153.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0153_001.yaml, hash: 'sha256:a6245804bb84a6f02fa2867a41a14a4f77be913770d439b4bd956299b4d476c6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0153_001.markers.yaml, hash: 'sha256:79f5c6f1b5d76bffb67be69415958c32995de34a88346889ab5d46586c5bd9e2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0153_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 698
+  label: 郭季產集異記
+  type: section
+  level: 1
+hash: sha256:579f0d481921289012cd1a954f5f3f5c737b36e156d1905848737d6da645b805
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
